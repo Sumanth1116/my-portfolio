@@ -1,15 +1,23 @@
 {
   "files": {
     "main.css": "/my-portfolio/static/css/main.267842a7.css",
-    "main.js": "/my-portfolio/static/js/main.e0a1e236.js",
+    "main.js": "/my-portfolio/static/js/main.44b7026b.js",
     "static/js/453.438d9e50.chunk.js": "/my-portfolio/static/js/453.438d9e50.chunk.js",
+    "static/media/logo.jpg": "/my-portfolio/static/media/logo.f2f3201db5918dbe0ba4.jpg",
+    "static/media/Fvtu1 - certificate.jpg": "/my-portfolio/static/media/Fvtu1 - certificate.3147572b786a214c26f8.jpg",
+    "static/media/Fvtu - certificate.jpg": "/my-portfolio/static/media/Fvtu - certificate.f8649fb03a19b74f0449.jpg",
+    "static/media/softskills - certificate.jpg": "/my-portfolio/static/media/softskills - certificate.f866fd45d9b68ce2e5dd.jpg",
+    "static/media/internship-virtual.png": "/my-portfolio/static/media/internship-virtual.689e41cf40f4a4c113c4.png",
+    "static/media/cloud computing - certificate.jpg": "/my-portfolio/static/media/cloud computing - certificate.f347ff8fe61e11a206db.jpg",
+    "static/media/accenture certificate.jpg": "/my-portfolio/static/media/accenture certificate.4bf36e7cff6edf839216.jpg",
+    "static/media/deloitte certificate.jpg": "/my-portfolio/static/media/deloitte certificate.32e6f1d0674716ab31bc.jpg",
     "index.html": "/my-portfolio/index.html",
     "main.267842a7.css.map": "/my-portfolio/static/css/main.267842a7.css.map",
-    "main.e0a1e236.js.map": "/my-portfolio/static/js/main.e0a1e236.js.map",
+    "main.44b7026b.js.map": "/my-portfolio/static/js/main.44b7026b.js.map",
     "453.438d9e50.chunk.js.map": "/my-portfolio/static/js/453.438d9e50.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.267842a7.css",
-    "static/js/main.e0a1e236.js"
+    "static/js/main.44b7026b.js"
   ]
 }

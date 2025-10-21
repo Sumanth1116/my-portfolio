@@ -2,49 +2,23 @@
 import { useRef, useState } from "react";
 import { motion, useScroll, useTransform } from "framer-motion";
 
+// Import all images
+import cloudCert from "../assets/cloud computing - certificate.jpg";
+import aiCert from "../assets/internship-virtual.png";
+import softSkillsCert from "../assets/softskills - certificate.jpg";
+import accentureCert from "../assets/accenture certificate.jpg";
+import deloitteCert from "../assets/deloitte certificate.jpg";
+import fvtuCert from "../assets/Fvtu - certificate.jpg";
+import fvtu1Cert from "../assets/Fvtu1 - certificate.jpg";
+
 const certificates = [
-  {
-    id: 1,
-    title: "Certificate 1",
-    text: "NPTEL - Cloud Computing",
-    image: "/cloud computing - certificate.jpg",
-  },
-  {
-    id: 2,
-    title: "Certificate 2",
-    text: "AI-ML Virtual Internship",
-    image: "/internship-virtual.png",
-  },
-  {
-    id: 3,
-    title: "Certificate 3",
-    text: "Strategy and leadership for career development",
-    image: "/softskills - certificate.jpg",
-  },
-  {
-    id: 4,
-    title: "Certificate 4",
-    text: "Inter-Collegiate Division Level Football Tournament - WINNERS (2022-2023)",
-    image: "/accenture certificate.jpg",
-  },
-  {
-    id: 5,
-    title: "Certificate 5",
-    text: "Inter-Collegiate Division Level Football Tournament - WINNERS (2023-2024)",
-    image: "/deloitte certificate.jpg",
-  },
-  {
-    id: 6,
-    title: "Certificate 6",
-    text: "Inter-Collegiate Division Level Football Tournament - WINNERS (2023-2024)",
-    image: "/Fvtu - certificate.jpg",
-  },
-  {
-    id: 7,
-    title: "Certificate 7",
-    text: "Inter-Collegiate Division Level Football Tournament - WINNERS (2023-2024)",
-    image: "/Fvtu1 - certificate.jpg",
-  },
+  { id: 1, title: "Certificate 1", text: "NPTEL - Cloud Computing", image: cloudCert },
+  { id: 2, title: "Certificate 2", text: "AI-ML Virtual Internship", image: aiCert },
+  { id: 3, title: "Certificate 3", text: "Strategy and leadership for career development", image: softSkillsCert },
+  { id: 4, title: "Certificate 4", text: "Inter-Collegiate Division Level Football Tournament - WINNERS (2022-2023)", image: accentureCert },
+  { id: 5, title: "Certificate 5", text: "Inter-Collegiate Division Level Football Tournament - WINNERS (2023-2024)", image: deloitteCert },
+  { id: 6, title: "Certificate 6", text: "Inter-Collegiate Division Level Football Tournament - WINNERS (2023-2024)", image: fvtuCert },
+  { id: 7, title: "Certificate 7", text: "Inter-Collegiate Division Level Football Tournament - WINNERS (2023-2024)", image: fvtu1Cert },
 ];
 
 export default function Certificates() {
@@ -64,13 +38,12 @@ export default function Certificates() {
       className="relative h-[200vh] bg-gradient-to-b from-gray-900 via-black to-gray-900"
     >
       {/* Section Heading */}
-      {/* Section Heading */}
-<div className="sticky top-10 z-20 text-center mb-10">
-  <h2 className="mt-20 text-2xl sm:text-3xl md:text-4xl font-bold text-white relative inline-block">
-    Certificates
-    <span className="absolute bottom-0 left-1/2 transform -translate-x-1/2 w-16 h-1 bg-blue-600 rounded"></span>
-  </h2>
-</div>
+      <div className="sticky top-10 z-20 text-center mb-10">
+        <h2 className="mt-20 text-2xl sm:text-3xl md:text-4xl font-bold text-white relative inline-block">
+          Certificates
+          <span className="absolute bottom-0 left-1/2 transform -translate-x-1/2 w-16 h-1 bg-blue-600 rounded"></span>
+        </h2>
+      </div>
 
       {/* Sticky container */}
       <div className="sticky top-20 flex h-screen items-center overflow-hidden">

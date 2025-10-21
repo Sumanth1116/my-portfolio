@@ -1,5 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
+import logo from "../assets/logo.jpg";
 
 function Hero() {
   return (
@@ -9,7 +10,7 @@ function Hero() {
     >
       {/* Profile Picture */}
       <motion.img
-        src="/logo.jpg"
+        src={logo} 
         alt="Sumanth"
         className="w-60 h-[26rem] sm:w-72 sm:h-[30rem] md:w-96 md:h-[36rem] mb-6 md:mb-0 md:mr-12 md:mt-12 mt-28"
         initial={{ opacity: 0, x: -80, scale: 0.8 }}

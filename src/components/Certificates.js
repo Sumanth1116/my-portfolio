@@ -89,7 +89,7 @@ export default function Certificates() {
           <img
             src={selectedImage}
             alt="Certificate Preview"
-            className="max-w-4xl max-h-[90vh] rounded-lg shadow-2xl border border-white/20"
+             className="w-full max-w-[95vw] sm:max-w-4xl h-auto max-h-[90vh] rounded-lg shadow-2xl border border-white/20"
           />
         </div>
       )}

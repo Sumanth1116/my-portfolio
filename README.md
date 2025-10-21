@@ -27,7 +27,7 @@ Welcome to my personal **portfolio website**, built using **ReactJS**, **Tailwin
 
 ## 🚀 Live Demo
 
-🔗 [View Live Portfolio](https://your-username.github.io/my-portfolio)  
+🔗 [View Live Portfolio](https://Sumanth1116.github.io/my-portfolio)  
 
 *(Replace the above link with your deployed portfolio URL)*
 

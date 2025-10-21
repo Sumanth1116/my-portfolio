@@ -68,7 +68,7 @@ export default function Certificates() {
               <img
                 src={cert.image}
                 alt={cert.title}
-                className="w-full h-48 object-cover rounded-lg mb-3 cursor-pointer border border-white/10"
+                className="w-full h-40 sm:h-48 md:h-52 lg:h-56 object-cover rounded-lg mb-3 cursor-pointer border border-white/10"
                 onClick={() => setSelectedImage(cert.image)}
               />
 
